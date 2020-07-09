@@ -7,11 +7,13 @@ A serial executable is obtained by using your favourite C++ compiler to compile 
 
 **g++ main.cpp -o main.exe**
 
-After done compiling, execute the 'main' program passing the PL problem data file as an argument, like this:
+Running
+--------
+After done compiling, execute the 'main' program passing the LP problem data file as an argument, like this:
 
 **./main.exe entrada/DadosXX.esd**
 
-If no argument is passed, the program will read the PL problem from the user itself.
+If no argument is passed, the program will read the LP problem from the user itself.
 
 Creating the Data
 ------------------
@@ -19,7 +21,7 @@ To pass the problem as an argument to the calculator, it needs to be in the spec
 
 **NAME:** name of your file or problem.
 
-**p_t:** especifies the problem type -> (0) for Maximization, (1) for Minimization.  
+**p_t:** specifies the problem type -> (0) for Maximization, (1) for Minimization.  
 **n_v:** number of variables in the Objective Function (OF).  
 **n_c:** number of constraints.  
 
