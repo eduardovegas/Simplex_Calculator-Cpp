@@ -1,14 +1,12 @@
 # Simplex Calculator in C++
 This project implements the Simplex Algorithm for solving Linear Programming problems.
 
-Compiling
-----------
+Compiling and Running
+----------------------
 A serial executable is obtained by using your favourite C++ compiler to compile and link the downloaded files. For example, using g++:
 
 **g++ main.cpp -o main.exe**
 
-Running
---------
 After done compiling, execute the 'main' program passing the LP problem data file as an argument, like this:
 
 **./main.exe entrada/DadosXX.esd**
